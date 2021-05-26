@@ -1,0 +1,24 @@
+{
+  "name": "raja_mantri_chor_sipahi",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://prashantchhabra89.github.io/Raja-Mantri-Chor-Sipahi",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-ui": "^2.3.3",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.32.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+	"deploy" : "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
